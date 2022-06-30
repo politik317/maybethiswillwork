@@ -1,0 +1,148 @@
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather',serif;
+  background-color: #F9F7F7;
+}
+
+
+h1 {
+  font-size: 5.625em;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p{
+color: #40514E;
+}
+
+hr{
+    width: 5%;
+    border: 8px dotted;
+    border-style: none none dotted;
+    color: #D3D3D3;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+}
+
+section{
+  display: inline-flex;
+  margin: auto;
+}
+
+
+.profile{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  background-color: #F9F7F7;
+}
+
+.socialmedia {
+  width: 1.5625em;
+  height: 1.5625em;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.yet {
+  text-decoration: underline;
+}
+.top-cloud{
+  position: absolute;
+  right: 18.75em;
+  top: 3.125em;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 18.75em;
+  bottom: 18.75em;
+}
+
+.google{
+float: right;
+margin-left: 30px;
+}
+
+.skills2{
+float: left;
+margin-right: 30px;
+}
+
+.contact-me{
+  display: flex;
+  align-items: center;
+
+}
+.email{
+  text-decoration: none;
+}
+
+.email {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -o-linear-gradient(top, #11cdd4, #1199e);
+  background-image: linear-gradient(to bottom, #11cdd4, #1199e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.email:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+}
+
+.copyright{
+  background-color: #66BFBF;
+  color:#EAF6F6;
+}
